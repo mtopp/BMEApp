@@ -2,4 +2,7 @@
     font-family: Verdana;
 }
 
-
+#topbar {
+    height: 60px;
+    width: 100%;
+}
