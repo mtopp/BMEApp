@@ -133,6 +133,7 @@
     <Content Include="Content\CSS\Main.css" />
     <Content Include="Content\CSS\OldMain.css" />
     <Content Include="Content\CSS\Normalise.css" />
+    <Content Include="Content\Images\temp_logo.png" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />

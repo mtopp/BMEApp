@@ -11,14 +11,23 @@ body {
     background: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);*/
 }
 
-#topbar { 
+#topbar-wrapper { 
     /*position: static;
     top: 0;*/
+    width: 100%; /*fallback*/
     width: 100vw;
     background-color: #1d212f;
-    text-align: center;
-    font-size: 1.875rem;
-    color: #baeaff;
+    height: 78px;
+    /*text-align: center;*/
+    /*font-size: 1.875rem;*/
+    /*color: #baeaff;*/
+}
+
+#topbar {
+    width: 85%; /*fallback*/
+    width: 85vw;
+    margin: 0 auto;
+
 }
 
 #logo {
@@ -49,7 +58,7 @@ body {
 
 Media Queries*/
 
-@media (min-width: 58.56rem) {
+@media (min-width: 58.56rem) { /* 937px*/
 
     html, body {
         height: 100%;
@@ -70,8 +79,8 @@ Media Queries*/
         font-size: 24px;
     }
 
-    #topbar {
-        height: 60px;
+    #topbar-wrapper {
+        
         /*position: fixed;*/
     }
 }
