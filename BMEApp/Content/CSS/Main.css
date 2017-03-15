@@ -34,7 +34,12 @@ body {
 
 }
 
-#logo {
+img#top-logo {
+    max-height: 80px;
+    width: auto;
+}
+
+/*#logo {
     float: left;
     text-align: center;
     font-size: 1.875rem;
@@ -42,7 +47,7 @@ body {
     padding: 0.5rem 0 0 0;
     width: 100vw;
     vertical-align: top;
-}
+}*/
 
 #left-content {
     background: #9b9b9b;
