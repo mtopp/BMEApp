@@ -16,8 +16,12 @@ body {
     top: 0;*/
     width: 100%; /*fallback*/
     width: 100vw;
-    background-color: #1d212f;
-    height: 78px;
+    background: #1d212f;
+    background: -webkit-linear-gradient(left top, rgba(29,33,47,1) 0%, rgba(29,33,47,1) 100%);
+    background: -o-linear-gradient(bottom right, rgba(29,33,47,1) 0%, rgba(29,33,47,1) 100%);
+    background: -moz-linear-gradient(bottom right, rgba(29,33,47,1) 0%, rgba(29,33,47,1) 100%);
+    background: linear-gradient(to bottom right, rgba(29,33,47,1) 0%, rgba(29,33,47,1) 100%);
+    height: 80px;
     /*text-align: center;*/
     /*font-size: 1.875rem;*/
     /*color: #baeaff;*/
